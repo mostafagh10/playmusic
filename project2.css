@@ -1,0 +1,90 @@
+.container{
+    text-align: center;
+    margin-top: 140px;
+}
+.container > h1{
+    font-weight: bold;
+}
+.row{
+    width: 102%;
+    height: 130px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+@media (max-width:767px){
+    .row{
+        width: 104%;
+    }
+}
+.pad1{
+    width: 16.66666%;
+    background-color: rgb(221, 40, 40);
+}
+.pad1:hover{
+    width: 16.66666%;
+    background-color: rgb(160, 29, 29);
+}
+.pad2{
+    width: 16.66666%;
+    background-color: rgb(118, 229, 233);
+}
+.pad2:hover{
+    background-color: rgb(63, 138, 141);
+}
+.pad3{
+    width: 16.66666%;
+    background-color: rgb(94, 248, 80);
+}
+.pad3:hover{
+    background-color: rgb(61, 165, 52);
+}
+.pad4{
+    width: 16.66666%;
+    background-color: rgb(227, 238, 70);
+}
+.pad4:hover{
+    background-color: rgb(170, 179, 49);
+}
+.pad5{
+    width: 16.66666%;
+    background-color: rgb(119, 61, 253);
+}
+.pad5:hover{
+    background-color: rgb(53, 25, 121);
+}
+.pad6{
+    width: 16.66666%;
+    background-color: rgb(250, 69, 190);
+}
+.pad6:hover{
+    background-color: rgb(165, 44, 125);
+}
+.row > div:hover{
+    cursor: pointer;
+}
+.visual > div{
+    margin: auto;
+}
+/*
+@keyframes pump{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    50%{
+        width: 50px;
+        height: 50px;
+    }
+    100%{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+.visual > div{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+}
+*/
